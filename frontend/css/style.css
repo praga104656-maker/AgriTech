@@ -1,4 +1,4 @@
-/* =========================================================
+﻿/* =========================================================
    AGRITECH - MAIN STYLESHEET
    ========================================================= */
 
@@ -3218,3 +3218,145 @@ footer > p {
     }
 
 }
+
+/* PRODUCE FORM AND SAVED PRODUCE */
+
+.produce-page {
+    min-height: 100vh;
+    background: #f6f8f6;
+}
+
+.produce-container {
+    width: min(92%, 760px);
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.produce-card {
+    padding: 32px;
+    background: white;
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.04);
+}
+
+.produce-card h1 {
+    margin-bottom: 8px;
+}
+
+.produce-card > p {
+    margin-bottom: 25px;
+    color: #6b7280;
+}
+
+.produce-form-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 18px;
+}
+
+.produce-form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.produce-form-group.full-width {
+    grid-column: 1 / -1;
+}
+
+.produce-form-group label {
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.produce-form-group input,
+.produce-form-group select {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #d1d5db;
+    border-radius: 8px;
+    font: inherit;
+}
+
+.produce-form-actions {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-top: 24px;
+}
+
+.produce-form-actions button {
+    border: 0;
+    cursor: pointer;
+}
+
+.produce-message {
+    display: none;
+    margin-top: 18px;
+    padding: 10px 12px;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.produce-item {
+    padding: 14px 0;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.produce-item:last-child {
+    border-bottom: 0;
+}
+
+.produce-item-heading,
+.produce-item-details {
+    display: flex;
+    justify-content: space-between;
+    gap: 12px;
+}
+
+.produce-item-heading span {
+    color: #16a34a;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.produce-item-details {
+    flex-wrap: wrap;
+    margin-top: 8px;
+    color: #6b7280;
+    font-size: 12px;
+}
+
+.produce-empty {
+    color: #6b7280;
+    font-size: 14px;
+}
+
+.produce-error {
+    color: #d93025;
+}
+
+.dashboard-message {
+    display: none;
+    margin-top: 12px;
+    color: #d93025;
+    font-size: 13px;
+}
+
+@media (max-width: 600px) {
+    .produce-form-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .produce-form-group.full-width {
+        grid-column: auto;
+    }
+
+    .produce-card {
+        padding: 22px;
+    }
+}
+

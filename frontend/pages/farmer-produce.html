@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Produce | AgriTech</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body class="produce-page">
+    <main class="produce-container">
+        <section class="produce-card">
+            <p class="panel-label">FARMER DASHBOARD</p>
+            <h1>Add Your Produce</h1>
+            <p>Save your crop details for buyers and market analysis.</p>
+
+            <form id="produceForm">
+                <div class="produce-form-grid">
+                    <div class="produce-form-group">
+                        <label for="cropName">Crop name</label>
+                        <input id="cropName" name="cropName" type="text" required>
+                    </div>
+                    <div class="produce-form-group">
+                        <label for="quantity">Quantity</label>
+                        <input id="quantity" name="quantity" type="number" min="0.01" step="0.01" required>
+                    </div>
+                    <div class="produce-form-group">
+                        <label for="unit">Unit</label>
+                        <input id="unit" name="unit" type="text" placeholder="kg" required>
+                    </div>
+                    <div class="produce-form-group">
+                        <label for="qualityGrade">Quality grade</label>
+                        <input id="qualityGrade" name="qualityGrade" type="text" placeholder="A" required>
+                    </div>
+                    <div class="produce-form-group">
+                        <label for="expectedPrice">Expected price</label>
+                        <input id="expectedPrice" name="expectedPrice" type="number" min="0" step="0.01" required>
+                    </div>
+                    <div class="produce-form-group">
+                        <label for="harvestDate">Harvest date</label>
+                        <input id="harvestDate" name="harvestDate" type="date" required>
+                    </div>
+                    <div class="produce-form-group full-width">
+                        <label for="location">Location</label>
+                        <input id="location" name="location" type="text" required>
+                    </div>
+                </div>
+                <div class="produce-form-actions">
+                    <button type="submit" class="primary-btn">Save Produce</button>
+                    <a href="farmer-dashboard.html" class="secondary-btn">Back to Dashboard</a>
+                </div>
+                <div id="produce-message" class="produce-message" role="status"></div>
+            </form>
+        </section>
+    </main>
+    <script src="../js/script.js"></script>
+</body>
+</html>
