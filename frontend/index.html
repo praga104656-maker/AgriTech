@@ -1,31 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>AgriTech | Smart Farm-to-Market Platform</title>
+    <title>AgriTech | Farmer to Consumer</title>
 
-    <meta
-        name="description"
-        content="AgriTech connects farmers directly with buyers using smart pricing, demand prediction, marketplace matching and logistics."
-    >
-
-    <!-- Google Font -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
-        rel="stylesheet"
-    >
-
-    <!-- Font Awesome -->
-    <link
-        rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
-    >
-
-    <!-- Main CSS -->
     <link rel="stylesheet" href="css/style.css">
 </head>
 
@@ -34,742 +15,344 @@
     <!-- ================= NAVBAR ================= -->
 
     <header class="navbar">
-        <div class="container nav-container">
 
-            <a href="index.html" class="logo">
-                <span class="logo-icon">
-                    <i class="fa-solid fa-seedling"></i>
-                </span>
+        <div class="logo">
+            🌱 AgriTech
+        </div>
 
-                <span>Agri<span>Tech</span></span>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#how-it-works">How It Works</a>
+            <a href="#farmers">For Farmers</a>
+            <a href="#buyers">For Buyers</a>
+            <a href="#market">Market</a>
+        </nav>
+
+        <div class="nav-buttons">
+            <a href="pages/login.html" class="login-btn">
+                Login
             </a>
 
-            <nav class="nav-links" id="navLinks">
-
-                <a href="#home" class="active">Home</a>
-
-                <a href="#features">Features</a>
-
-                <a href="#how-it-works">How It Works</a>
-
-                <a href="#about">About</a>
-
-                <a href="#contact">Contact</a>
-
-            </nav>
-
-            <div class="nav-actions">
-
-                <a href="pages/login.html" class="login-btn">
-                    Login
-                </a>
-
-                <a href="pages/register.html" class="primary-btn small-btn">
-                    Get Started
-                </a>
-
-            </div>
-
-            <button class="menu-btn" id="menuBtn" aria-label="Open menu">
-                <i class="fa-solid fa-bars"></i>
-            </button>
-
+            <a href="pages/register.html" class="register-btn">
+                Get Started
+            </a>
         </div>
+
     </header>
 
 
-    <!-- ================= HERO ================= -->
+    <!-- ================= HERO SECTION ================= -->
 
-    <main>
+    <section class="hero" id="home">
 
-        <section class="hero" id="home">
+        <div class="hero-content">
 
-            <div class="container hero-grid">
+            <p class="hero-label">
+                🌾 SMART AGRICULTURAL MARKETPLACE
+            </p>
 
-                <div class="hero-content">
+            <h1>
+                From <span>Farm</span> Directly to
+                <span>Consumer</span>
+            </h1>
 
-                    <div class="hero-badge">
-                        <i class="fa-solid fa-leaf"></i>
-                        Smart Agriculture • Direct Marketplace
-                    </div>
+            <p class="hero-description">
+                AgriTech connects farmers directly with buyers,
+                helping farmers earn better prices while consumers
+                get fresh agricultural products at fair prices.
+            </p>
 
-                    <h1>
-                        From
-                        <span>Farm</span>
-                        to
-                        <span>Market</span>,
-                        Smarter.
-                    </h1>
+            <div class="hero-buttons">
 
-                    <p class="hero-description">
-                        AgriTech connects farmers directly with buyers,
-                        helping reduce unnecessary intermediaries through
-                        smart pricing, demand insights and intelligent
-                        marketplace matching.
-                    </p>
+                <a href="pages/register.html" class="primary-btn">
+                    Join AgriTech →
+                </a>
 
-                    <div class="hero-buttons">
-
-                        <a href="pages/register.html" class="primary-btn">
-                            Join AgriTech
-                            <i class="fa-solid fa-arrow-right"></i>
-                        </a>
-
-                        <a href="#how-it-works" class="secondary-btn">
-                            <i class="fa-solid fa-play"></i>
-                            How It Works
-                        </a>
-
-                    </div>
-
-                    <div class="hero-stats">
-
-                        <div class="stat">
-                            <strong>Direct</strong>
-                            <span>Farmer–Buyer Connection</span>
-                        </div>
-
-                        <div class="stat">
-                            <strong>Smart</strong>
-                            <span>Price & Demand Insights</span>
-                        </div>
-
-                        <div class="stat">
-                            <strong>Better</strong>
-                            <span>Market Decisions</span>
-                        </div>
-
-                    </div>
-
-                </div>
-
-
-                <!-- HERO VISUAL -->
-
-                <div class="hero-visual">
-
-                    <div class="dashboard-card">
-
-                        <div class="dashboard-header">
-
-                            <div>
-                                <span class="mini-label">
-                                    Today's Market
-                                </span>
-
-                                <h3>Tomato</h3>
-                            </div>
-
-                            <span class="status">
-                                <i class="fa-solid fa-circle"></i>
-                                Live
-                            </span>
-
-                        </div>
-
-
-                        <div class="price-section">
-
-                            <span class="price-label">
-                                Recommended Price
-                            </span>
-
-                            <div class="price">
-                                ₹31
-                                <span>/kg</span>
-                            </div>
-
-                            <span class="price-up">
-                                <i class="fa-solid fa-arrow-trend-up"></i>
-                                +10.7% expected
-                            </span>
-
-                        </div>
-
-
-                        <div class="insight-grid">
-
-                            <div class="insight">
-                                <div class="insight-icon">
-                                    <i class="fa-solid fa-chart-line"></i>
-                                </div>
-
-                                <div>
-                                    <span>Demand</span>
-                                    <strong>High</strong>
-                                </div>
-                            </div>
-
-                            <div class="insight">
-                                <div class="insight-icon">
-                                    <i class="fa-solid fa-cloud-sun"></i>
-                                </div>
-
-                                <div>
-                                    <span>Weather</span>
-                                    <strong>Favorable</strong>
-                                </div>
-                            </div>
-
-                            <div class="insight">
-                                <div class="insight-icon">
-                                    <i class="fa-solid fa-boxes-stacked"></i>
-                                </div>
-
-                                <div>
-                                    <span>Supply</span>
-                                    <strong>Moderate</strong>
-                                </div>
-                            </div>
-
-                            <div class="insight">
-                                <div class="insight-icon">
-                                    <i class="fa-solid fa-users"></i>
-                                </div>
-
-                                <div>
-                                    <span>Cluster</span>
-                                    <strong>42 Farmers</strong>
-                                </div>
-                            </div>
-
-                        </div>
-
-
-                        <div class="recommendation">
-
-                            <div class="recommendation-icon">
-                                <i class="fa-solid fa-lightbulb"></i>
-                            </div>
-
-                            <div>
-                                <span>AI Recommendation</span>
-
-                                <strong>
-                                    Consider selling in 2 days
-                                </strong>
-                            </div>
-
-                        </div>
-
-                    </div>
-
-
-                    <div class="floating-card floating-one">
-
-                        <div class="floating-icon">
-                            <i class="fa-solid fa-arrow-trend-up"></i>
-                        </div>
-
-                        <div>
-                            <strong>Demand +18%</strong>
-                            <span>Next month</span>
-                        </div>
-
-                    </div>
-
-
-                    <div class="floating-card floating-two">
-
-                        <div class="floating-icon">
-                            <i class="fa-solid fa-handshake"></i>
-                        </div>
-
-                        <div>
-                            <strong>Buyer Matched</strong>
-                            <span>2 Ton • Grade A</span>
-                        </div>
-
-                    </div>
-
-                </div>
+                <a href="#how-it-works" class="secondary-btn">
+                    Explore How It Works
+                </a>
 
             </div>
 
-        </section>
+        </div>
 
 
-        <!-- ================= TRUST BAR ================= -->
+        <div class="hero-card">
 
-        <section class="trust-section">
+            <div class="price-card">
 
-            <div class="container trust-content">
+                <div class="card-header">
+                    <span>🍅 Tomato</span>
+                    <span class="status">● LIVE</span>
+                </div>
 
-                <span>
-                    Built to make agricultural trade
-                    <strong>smarter, fairer and more connected.</strong>
-                </span>
+                <h2>₹28/kg</h2>
 
-                <div class="trust-items">
+                <p>Current Market Price</p>
+
+                <div class="prediction">
 
                     <div>
-                        <i class="fa-solid fa-user-group"></i>
-                        Farmers
+                        <small>Predicted Price</small>
+                        <strong>₹31–34/kg</strong>
                     </div>
 
                     <div>
-                        <i class="fa-solid fa-store"></i>
-                        Buyers
+                        <small>Demand</small>
+                        <strong class="high-demand">High ↑</strong>
                     </div>
 
-                    <div>
-                        <i class="fa-solid fa-chart-column"></i>
-                        Market Data
-                    </div>
+                </div>
 
-                    <div>
-                        <i class="fa-solid fa-truck-fast"></i>
-                        Logistics
-                    </div>
-
+                <div class="recommendation">
+                    💡 Recommended: Wait 2 days
                 </div>
 
             </div>
 
-        </section>
+        </div>
+
+    </section>
 
 
-        <!-- ================= FEATURES ================= -->
+    <!-- ================= FEATURES ================= -->
 
-        <section class="features-section section-padding" id="features">
+    <section class="features" id="how-it-works">
 
-            <div class="container">
+        <div class="section-heading">
 
-                <div class="section-heading">
+            <p>HOW AGRITECH WORKS</p>
 
-                    <span class="section-tag">
-                        CORE FEATURES
-                    </span>
+            <h2>
+                A smarter way to connect
+                <span>farmers and buyers</span>
+            </h2>
 
-                    <h2>
-                        One platform for
-                        <span>smarter agricultural trade.</span>
-                    </h2>
+            <p class="section-description">
+                Our platform combines market information,
+                demand prediction and farmer-buyer matching
+                to create a more efficient agricultural marketplace.
+            </p>
 
-                    <p>
-                        AgriTech brings market intelligence,
-                        farmer aggregation and buyer matching
-                        together in one platform.
-                    </p>
+        </div>
 
+
+        <div class="feature-grid">
+
+            <div class="feature-card">
+
+                <div class="feature-icon">
+                    📊
                 </div>
 
+                <h3>Smart Price Engine</h3>
 
-                <div class="features-grid">
-
-                    <article class="feature-card featured-card">
-
-                        <div class="feature-icon">
-                            <i class="fa-solid fa-chart-line"></i>
-                        </div>
-
-                        <h3>Smart Price Engine</h3>
-
-                        <p>
-                            Combine current market prices,
-                            historical trends, demand,
-                            supply, weather and seasonality
-                            to support better selling decisions.
-                        </p>
-
-                        <a href="#">
-                            Explore pricing
-                            <i class="fa-solid fa-arrow-right"></i>
-                        </a>
-
-                    </article>
-
-
-                    <article class="feature-card">
-
-                        <div class="feature-icon">
-                            <i class="fa-solid fa-magnifying-glass-chart"></i>
-                        </div>
-
-                        <h3>Demand Prediction</h3>
-
-                        <p>
-                            Understand upcoming demand patterns
-                            and identify opportunities before
-                            market conditions change.
-                        </p>
-
-                        <a href="#">
-                            Learn more
-                            <i class="fa-solid fa-arrow-right"></i>
-                        </a>
-
-                    </article>
-
-
-                    <article class="feature-card">
-
-                        <div class="feature-icon">
-                            <i class="fa-solid fa-people-group"></i>
-                        </div>
-
-                        <h3>Farmer Clustering</h3>
-
-                        <p>
-                            Group nearby farmers with similar
-                            crops and quantities to support
-                            collective selling.
-                        </p>
-
-                        <a href="#">
-                            Learn more
-                            <i class="fa-solid fa-arrow-right"></i>
-                        </a>
-
-                    </article>
-
-
-                    <article class="feature-card">
-
-                        <div class="feature-icon">
-                            <i class="fa-solid fa-handshake"></i>
-                        </div>
-
-                        <h3>Buyer Matching</h3>
-
-                        <p>
-                            Match buyer requirements with suitable
-                            farmers or farmer groups based on
-                            crop, quantity, quality and location.
-                        </p>
-
-                        <a href="#">
-                            Find buyers
-                            <i class="fa-solid fa-arrow-right"></i>
-                        </a>
-
-                    </article>
-
-
-                    <article class="feature-card">
-
-                        <div class="feature-icon">
-                            <i class="fa-solid fa-cloud-sun-rain"></i>
-                        </div>
-
-                        <h3>Weather Intelligence</h3>
-
-                        <p>
-                            Use weather information alongside
-                            market conditions to support
-                            decisions for perishable crops.
-                        </p>
-
-                        <a href="#">
-                            View insights
-                            <i class="fa-solid fa-arrow-right"></i>
-                        </a>
-
-                    </article>
-
-
-                    <article class="feature-card">
-
-                        <div class="feature-icon">
-                            <i class="fa-solid fa-truck"></i>
-                        </div>
-
-                        <h3>Smart Logistics</h3>
-
-                        <p>
-                            Connect marketplace transactions
-                            with delivery planning and
-                            order tracking.
-                        </p>
-
-                        <a href="#">
-                            Track delivery
-                            <i class="fa-solid fa-arrow-right"></i>
-                        </a>
-
-                    </article>
-
-                </div>
+                <p>
+                    Analyze current market prices,
+                    historical trends and expected prices
+                    to help farmers make better selling decisions.
+                </p>
 
             </div>
 
-        </section>
 
+            <div class="feature-card">
 
-        <!-- ================= HOW IT WORKS ================= -->
-
-        <section class="workflow-section section-padding" id="how-it-works">
-
-            <div class="container">
-
-                <div class="section-heading">
-
-                    <span class="section-tag">
-                        HOW IT WORKS
-                    </span>
-
-                    <h2>
-                        From data to
-                        <span>better decisions.</span>
-                    </h2>
-
-                    <p>
-                        AgriTech combines multiple signals to
-                        help farmers and buyers make informed
-                        marketplace decisions.
-                    </p>
-
+                <div class="feature-icon">
+                    📈
                 </div>
 
+                <h3>Demand Prediction</h3>
 
-                <div class="workflow">
-
-                    <div class="workflow-line"></div>
-
-                    <div class="workflow-step">
-
-                        <div class="step-number">01</div>
-
-                        <div class="step-icon">
-                            <i class="fa-solid fa-cloud-sun"></i>
-                        </div>
-
-                        <h3>Collect Data</h3>
-
-                        <p>
-                            Weather, market price, demand,
-                            supply and seasonal information.
-                        </p>
-
-                    </div>
-
-
-                    <div class="workflow-step">
-
-                        <div class="step-number">02</div>
-
-                        <div class="step-icon">
-                            <i class="fa-solid fa-brain"></i>
-                        </div>
-
-                        <h3>Generate Insights</h3>
-
-                        <p>
-                            AI models analyze available data
-                            to generate useful predictions.
-                        </p>
-
-                    </div>
-
-
-                    <div class="workflow-step">
-
-                        <div class="step-number">03</div>
-
-                        <div class="step-icon">
-                            <i class="fa-solid fa-tag"></i>
-                        </div>
-
-                        <h3>Recommend Price</h3>
-
-                        <p>
-                            Farmers receive a data-driven
-                            price recommendation.
-                        </p>
-
-                    </div>
-
-
-                    <div class="workflow-step">
-
-                        <div class="step-number">04</div>
-
-                        <div class="step-icon">
-                            <i class="fa-solid fa-handshake"></i>
-                        </div>
-
-                        <h3>Match Buyers</h3>
-
-                        <p>
-                            Suitable buyers are matched with
-                            farmers or farmer clusters.
-                        </p>
-
-                    </div>
-
-
-                    <div class="workflow-step">
-
-                        <div class="step-number">05</div>
-
-                        <div class="step-icon">
-                            <i class="fa-solid fa-truck-fast"></i>
-                        </div>
-
-                        <h3>Deliver</h3>
-
-                        <p>
-                            Orders move through the logistics
-                            and tracking system.
-                        </p>
-
-                    </div>
-
-                </div>
+                <p>
+                    Predict future demand for agricultural
+                    products using market and seasonal data.
+                </p>
 
             </div>
 
-        </section>
 
+            <div class="feature-card">
 
-        <!-- ================= CTA ================= -->
-
-        <section class="cta-section" id="about">
-
-            <div class="container">
-
-                <div class="cta-card">
-
-                    <div class="cta-content">
-
-                        <span class="section-tag">
-                            JOIN THE PLATFORM
-                        </span>
-
-                        <h2>
-                            Let's build a
-                            <span>smarter farm-to-market</span>
-                            ecosystem.
-                        </h2>
-
-                        <p>
-                            Connect with the right market,
-                            understand demand and make better
-                            agricultural decisions.
-                        </p>
-
-                        <a href="pages/register.html" class="primary-btn">
-                            Get Started
-                            <i class="fa-solid fa-arrow-right"></i>
-                        </a>
-
-                    </div>
-
-                    <div class="cta-decoration">
-                        <i class="fa-solid fa-seedling"></i>
-                    </div>
-
+                <div class="feature-icon">
+                    👨‍🌾
                 </div>
+
+                <h3>Farmer Clustering</h3>
+
+                <p>
+                    Automatically group nearby farmers
+                    producing the same crop for collective selling.
+                </p>
 
             </div>
 
-        </section>
 
-    </main>
+            <div class="feature-card">
+
+                <div class="feature-icon">
+                    🤝
+                </div>
+
+                <h3>Buyer Matching</h3>
+
+                <p>
+                    Connect restaurants, retailers and processors
+                    with suitable farmers and farmer groups.
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= FARMER SECTION ================= -->
+
+    <section class="info-section" id="farmers">
+
+        <div class="info-content">
+
+            <p class="section-label">
+                FOR FARMERS
+            </p>
+
+            <h2>
+                Sell smarter.
+                <span>Earn better.</span>
+            </h2>
+
+            <p>
+                Farmers can view market prices, understand
+                demand trends, receive AI-based recommendations
+                and connect directly with buyers.
+            </p>
+
+            <ul>
+                <li>✓ View current market prices</li>
+                <li>✓ Get predicted price trends</li>
+                <li>✓ Find nearby farmer groups</li>
+                <li>✓ Connect directly with buyers</li>
+            </ul>
+
+            <a href="pages/register.html" class="primary-btn">
+                Register as Farmer →
+            </a>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= BUYER SECTION ================= -->
+
+    <section class="buyer-section" id="buyers">
+
+        <div class="buyer-content">
+
+            <p class="section-label">
+                FOR BUYERS
+            </p>
+
+            <h2>
+                Find the right produce
+                <span>directly from farmers.</span>
+            </h2>
+
+            <p>
+                Restaurants, retailers and processors can
+                post their requirements and find suitable
+                farmers or farmer clusters.
+            </p>
+
+            <a href="pages/register.html" class="secondary-btn">
+                Register as Buyer →
+            </a>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= MARKET SECTION ================= -->
+
+    <section class="market-section" id="market">
+
+        <div class="section-heading">
+
+            <p>SMART MARKET</p>
+
+            <h2>
+                Market intelligence
+                <span>for better decisions</span>
+            </h2>
+
+        </div>
+
+
+        <div class="market-flow">
+
+            <div>
+                🌦️
+                <strong>Weather</strong>
+            </div>
+
+            <span>→</span>
+
+            <div>
+                💰
+                <strong>Market Price</strong>
+            </div>
+
+            <span>→</span>
+
+            <div>
+                📈
+                <strong>Demand</strong>
+            </div>
+
+            <span>→</span>
+
+            <div>
+                🌱
+                <strong>Supply</strong>
+            </div>
+
+            <span>→</span>
+
+            <div>
+                🤖
+                <strong>AI Recommendation</strong>
+            </div>
+
+        </div>
+
+    </section>
 
 
     <!-- ================= FOOTER ================= -->
 
-    <footer id="contact">
+    <footer>
 
-        <div class="container footer-grid">
-
-            <div class="footer-brand">
-
-                <a href="index.html" class="logo">
-                    <span class="logo-icon">
-                        <i class="fa-solid fa-seedling"></i>
-                    </span>
-
-                    <span>Agri<span>Tech</span></span>
-                </a>
-
-                <p>
-                    Connecting farmers and buyers through
-                    smarter agricultural technology.
-                </p>
-
-                <div class="social-links">
-
-                    <a href="#" aria-label="LinkedIn">
-                        <i class="fa-brands fa-linkedin-in"></i>
-                    </a>
-
-                    <a href="#" aria-label="GitHub">
-                        <i class="fa-brands fa-github"></i>
-                    </a>
-
-                    <a href="#" aria-label="Instagram">
-                        <i class="fa-brands fa-instagram"></i>
-                    </a>
-
-                </div>
-
-            </div>
-
-
-            <div class="footer-column">
-
-                <h4>Platform</h4>
-
-                <a href="#features">Features</a>
-                <a href="#how-it-works">How It Works</a>
-                <a href="pages/login.html">Login</a>
-                <a href="pages/register.html">Register</a>
-
-            </div>
-
-
-            <div class="footer-column">
-
-                <h4>For Users</h4>
-
-                <a href="#">For Farmers</a>
-                <a href="#">For Buyers</a>
-                <a href="#">Marketplace</a>
-                <a href="#">Orders</a>
-
-            </div>
-
-
-            <div class="footer-column">
-
-                <h4>Contact</h4>
-
-                <a href="mailto:hello@agritech.example">
-                    hello@agritech.example
-                </a>
-
-                <a href="#">
-                    Chennai, India
-                </a>
-
-            </div>
-
+        <div class="footer-logo">
+            🌱 AgriTech
         </div>
 
+        <p>
+            Connecting farmers directly with consumers
+            through technology.
+        </p>
 
-        <div class="footer-bottom">
-
-            <div class="container footer-bottom-content">
-
-                <span>
-                    © 2026 AgriTech. All rights reserved.
-                </span>
-
-                <span>
-                    Built for smarter agriculture.
-                </span>
-
-            </div>
-
-        </div>
+        <p class="copyright">
+            © 2026 AgriTech. All rights reserved.
+        </p>
 
     </footer>
 
 
-    <!-- JavaScript -->
-    <script src="js/main.js"></script>
+    <script src="js/script.js"></script>
 
 </body>
+
 </html>

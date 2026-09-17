@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Login | AgriTech</title>
+
+    <!-- Main AgriTech CSS -->
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body class="login-page">
+
+    <!-- ================= LOGIN NAVBAR ================= -->
+
+    <header class="login-navbar">
+
+        <a href="../index.html" class="login-logo">
+            🌱 <span>AgriTech</span>
+        </a>
+
+        <a href="../index.html" class="back-home">
+            ← Back to Home
+        </a>
+
+    </header>
+
+
+    <!-- ================= LOGIN SECTION ================= -->
+
+    <main class="login-container">
+
+        <div class="login-card">
+
+            <!-- Login Header -->
+
+            <div class="login-header">
+
+                <div class="login-icon">
+                    🔐
+                </div>
+
+                <h1>Welcome Back</h1>
+
+                <p>
+                    Login to continue to your AgriTech account
+                </p>
+
+            </div>
+
+
+            <!-- Login Form -->
+
+            <form id="loginForm">
+
+                <!-- Role -->
+
+                <div class="form-group">
+
+                    <label for="role">
+                        Login as
+                    </label>
+
+                    <select id="role" name="role" required>
+
+                        <option value="">
+                            Select your role
+                        </option>
+
+                        <option value="farmer">
+                            👨‍🌾 Farmer
+                        </option>
+
+                        <option value="buyer">
+                            🛒 Buyer
+                        </option>
+
+                    </select>
+
+                </div>
+
+
+                <!-- Email -->
+
+                <div class="form-group">
+
+                    <label for="email">
+                        Email Address
+                    </label>
+
+                    <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        placeholder="Enter your email"
+                        required
+                    >
+
+                </div>
+
+
+                <!-- Password -->
+
+                <div class="form-group">
+
+                    <div class="password-label">
+
+                        <label for="password">
+                            Password
+                        </label>
+
+                        <a href="#" class="forgot-password">
+                            Forgot password?
+                        </a>
+
+                    </div>
+
+                    <input
+                        type="password"
+                        id="password"
+                        name="password"
+                        placeholder="Enter your password"
+                        required
+                    >
+
+                </div>
+
+
+                <!-- Remember Me -->
+
+                <div class="remember-row">
+
+                    <label class="remember-label">
+
+                        <input
+                            type="checkbox"
+                            id="remember"
+                        >
+
+                        <span>
+                            Remember me
+                        </span>
+
+                    </label>
+
+                </div>
+
+
+                <!-- Login Button -->
+
+                <button
+                    type="submit"
+                    class="login-submit"
+                >
+                    Login to AgriTech →
+                </button>
+
+            </form>
+
+
+            <!-- Register -->
+
+            <div class="register-text">
+
+                <span>
+                    Don't have an account?
+                </span>
+
+                <a href="register.html">
+                    Create an account
+                </a>
+
+            </div>
+
+
+            <!-- Security -->
+
+            <div class="login-security">
+
+                🔒 Your information is securely protected
+
+            </div>
+
+        </div>
+
+    </main>
+
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer class="login-footer">
+
+        <p>
+            © 2026 AgriTech. Connecting farmers directly with buyers.
+        </p>
+
+    </footer>
+
+
+    <script src="../js/script.js"></script>
+
+</body>
+
+</html>
