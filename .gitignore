@@ -1,0 +1,16 @@
+# VS Code
+.vscode/
+
+# Java
+*.class
+target/
+
+# Spring Boot
+*.log
+
+# Environment files
+.env
+
+# Operating system
+.DS_Store
+Thumbs.db
