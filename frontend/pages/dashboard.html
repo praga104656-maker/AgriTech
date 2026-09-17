@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Farmer Dashboard | AgriTech</title>
+
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body class="dashboard-page">
+
+    <!-- SIDEBAR -->
+
+    <aside class="dashboard-sidebar">
+
+        <div class="dashboard-logo">
+            🌱 AgriTech
+        </div>
+
+        <nav class="dashboard-nav">
+
+            <a href="farmer-dashboard.html" class="active">
+                🏠 Dashboard
+            </a>
+
+            <a href="farmer-produce.html">
+                🌾 My Produce
+            </a>
+
+            <a href="farmer-market.html">
+                💰 Market Prices
+            </a>
+
+            <a href="#">
+                🤖 AI Recommendation
+            </a>
+
+            <a href="#">
+                📈 Demand Prediction
+            </a>
+
+            <a href="#">
+                👨‍🌾 Farmer Clusters
+            </a>
+
+            <a href="#">
+                🤝 Buyer Matching
+            </a>
+
+            <a href="#">
+                🚚 Orders & Logistics
+            </a>
+
+        </nav>
+
+        <div class="sidebar-bottom">
+
+            <a href="#">
+                ⚙️ Settings
+            </a>
+
+            <a href="../index.html">
+                🚪 Logout
+            </a>
+
+        </div>
+
+    </aside>
+
+
+    <!-- MAIN CONTENT -->
+
+    <main class="dashboard-main">
+
+        <!-- TOP BAR -->
+
+        <header class="dashboard-topbar">
+
+            <div>
+                <p class="dashboard-label">FARMER DASHBOARD</p>
+                <h1>Welcome back, Farmer! 👋</h1>
+            </div>
+
+            <div class="farmer-profile">
+
+                <div class="profile-icon">
+                    👨‍🌾
+                </div>
+
+                <div>
+                    <strong>Farmer</strong>
+                    <small>AgriTech Member</small>
+                </div>
+
+            </div>
+
+        </header>
+
+
+        <!-- SUMMARY CARDS -->
+
+        <section class="dashboard-cards">
+
+            <div class="dashboard-card">
+
+                <div class="dashboard-card-icon">
+                    🌾
+                </div>
+
+                <div>
+                    <p>Total Produce</p>
+                    <h2>1,250 kg</h2>
+                    <span>Across 4 crops</span>
+                </div>
+
+            </div>
+
+
+            <div class="dashboard-card">
+
+                <div class="dashboard-card-icon">
+                    💰
+                </div>
+
+                <div>
+                    <p>Current Value</p>
+                    <h2>₹35,000</h2>
+                    <span>Estimated market value</span>
+                </div>
+
+            </div>
+
+
+            <div class="dashboard-card">
+
+                <div class="dashboard-card-icon">
+                    📈
+                </div>
+
+                <div>
+                    <p>Demand Status</p>
+                    <h2>High</h2>
+                    <span>Demand increasing</span>
+                </div>
+
+            </div>
+
+
+            <div class="dashboard-card">
+
+                <div class="dashboard-card-icon">
+                    🤝
+                </div>
+
+                <div>
+                    <p>Buyer Matches</p>
+                    <h2>8</h2>
+                    <span>Potential buyers</span>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- MARKET + AI -->
+
+        <section class="dashboard-grid">
+
+            <!-- MARKET PRICE -->
+
+            <div class="dashboard-panel">
+
+                <div class="panel-heading">
+
+                    <div>
+                        <p class="panel-label">MARKET INTELLIGENCE</p>
+                        <h2>Today's Market Prices</h2>
+                    </div>
+
+                    <a href="farmer-market.html">
+                        View All →
+                    </a>
+
+                </div>
+
+
+                <div class="market-item">
+
+                    <div class="crop-info">
+                        <span class="crop-icon">🍅</span>
+
+                        <div>
+                            <strong>Tomato</strong>
+                            <small>Grade A</small>
+                        </div>
+                    </div>
+
+                    <div class="crop-price">
+                        <strong>₹28/kg</strong>
+                        <span>↑ 8%</span>
+                    </div>
+
+                </div>
+
+
+                <div class="market-item">
+
+                    <div class="crop-info">
+                        <span class="crop-icon">🧅</span>
+
+                        <div>
+                            <strong>Onion</strong>
+                            <small>Grade A</small>
+                        </div>
+                    </div>
+
+                    <div class="crop-price">
+                        <strong>₹32/kg</strong>
+                        <span>↑ 5%</span>
+                    </div>
+
+                </div>
+
+
+                <div class="market-item">
+
+                    <div class="crop-info">
+                        <span class="crop-icon">🥔</span>
+
+                        <div>
+                            <strong>Potato</strong>
+                            <small>Grade A</small>
+                        </div>
+                    </div>
+
+                    <div class="crop-price">
+                        <strong>₹25/kg</strong>
+                        <span>↑ 3%</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- AI RECOMMENDATION -->
+
+            <div class="dashboard-panel ai-panel">
+
+                <div class="panel-heading">
+
+                    <div>
+                        <p class="panel-label">AI MARKET ANALYSIS</p>
+                        <h2>Smart Recommendation 🤖</h2>
+                    </div>
+
+                </div>
+
+                <div class="ai-crop">
+                    🍅 <strong>Tomato</strong>
+                </div>
+
+                <div class="ai-price">
+
+                    <span>Current Price</span>
+                    <strong>₹28/kg</strong>
+
+                </div>
+
+                <div class="ai-price predicted">
+
+                    <span>Predicted Price</span>
+                    <strong>₹31–34/kg</strong>
+
+                </div>
+
+                <div class="recommendation-box">
+
+                    💡 <strong>Recommendation</strong>
+
+                    <p>
+                        Market demand is increasing.
+                        Consider waiting 2 days before selling.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- QUICK ACTIONS -->
+
+        <section class="quick-section">
+
+            <div class="panel-heading">
+
+                <div>
+                    <p class="panel-label">QUICK ACTIONS</p>
+                    <h2>Manage Your Farm</h2>
+                </div>
+
+            </div>
+
+
+            <div class="quick-grid">
+
+                <a href="farmer-produce.html" class="quick-card">
+                    <span>🌾</span>
+                    <strong>Add Produce</strong>
+                    <small>List your crops</small>
+                </a>
+
+                <a href="farmer-market.html" class="quick-card">
+                    <span>💰</span>
+                    <strong>Check Prices</strong>
+                    <small>View market trends</small>
+                </a>
+
+                <a href="#" class="quick-card">
+                    <span>🤝</span>
+                    <strong>Find Buyers</strong>
+                    <small>Match with buyers</small>
+                </a>
+
+                <a href="#" class="quick-card">
+                    <span>🚚</span>
+                    <strong>Track Orders</strong>
+                    <small>View deliveries</small>
+                </a>
+
+            </div>
+
+        </section>
+
+
+        <!-- WEATHER -->
+
+        <section class="weather-panel">
+
+            <div>
+
+                <p class="panel-label">WEATHER</p>
+
+                <h2>🌤️ Today's Farm Weather</h2>
+
+                <p>
+                    Suitable conditions for harvesting and transportation.
+                </p>
+
+            </div>
+
+            <div class="weather-info">
+
+                <strong>29°C</strong>
+
+                <span>Partly Cloudy</span>
+
+                <small>Rain Probability: 20%</small>
+
+            </div>
+
+        </section>
+
+
+        <!-- FOOTER -->
+
+        <footer class="dashboard-footer">
+
+            <p>
+                © 2026 AgriTech | Farmer to Consumer Platform
+            </p>
+
+        </footer>
+
+    </main>
+
+
+    <script src="../js/script.js"></script>
+
+</body>
+
+</html>
